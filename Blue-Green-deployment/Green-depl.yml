@@ -11,7 +11,7 @@ spec:
             name: hugo-app-depl
             labels:
               app: hugo-app
-              color: green
+              color: skyblue
        spec:
             containers:
               - name: hugo-app
@@ -19,4 +19,4 @@ spec:
    replicas: 3
    selector:
       matchLabels:
-          color: green
+          color: skyblue
